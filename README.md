@@ -3,7 +3,7 @@
 ## Clone it or Fork it
 
 ```sh
-git clone https://github.com/cristianorregodev/mmontoya-porfolio.git
+
 ```
 
 > 👨‍💻 **Preview?**
