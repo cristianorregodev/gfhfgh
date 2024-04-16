@@ -35,7 +35,7 @@ export const EXPERIENCE = [
     },
     {
         title: 'Web master',
-        company: 'Asociaión Recuperando Esperanza',
+        company: 'Asociación Recuperando Esperanza',
         description:
             'Administración y Soporte técnico a la página web institucional llevando a cabo actualizaciones de             seguridad. Realización de formularios, cambios de las imágenes, crear enlaces, cambiar los datos de contacto.',
         date: 'May 2021 - Presente - Freelance',
@@ -53,6 +53,24 @@ export const PROJECTS = [
         imageClass: 'md:h-56',
     },
     {
+        title: 'Turismo Dashi',
+        description:
+            'Diseño y desarrollo de sitio web para empresa turística, enfocado en estrategias SEO. Especializado en WordPress y Elementor para una experiencia de usuario de calidad.',
+        link: 'https://turismodashi.com/',
+        class: 'md:col-span-3',
+        image: '/projects/turismo-dashi.webp',
+        imageClass: 'md:h-56',
+    },
+    {
+        title: 'Colraices',
+        description:
+            'Desarrollo UI de sitio web. Implementando el nuevo diseño institucional en Next.js. Consumo de APIs y manipulación de eventos.',
+        link: 'https://colraices.com/',
+        class: 'md:col-span-3',
+        image: '/projects/colraices.webp',
+        imageClass: 'md:h-56',
+    },
+    {
         title: 'Coagroinduquibdo',
         description:
             'Desarrollo de sitio web empresarial para mejorar la presencia en internet de cooperativa nacional. Implementación de buenas prácticas de SEO. Uso de WordPress y Elementosr.',
@@ -66,28 +84,28 @@ export const PROJECTS = [
         description:
             'Reclutamiento y selección de personal. Dashboard para gestionar vacantes. Frontend de usuario final. Sistema de roles y autenticación.',
         link: 'https://github.com/Hvmble/coldisama',
-        class: 'md:col-span-2',
+        class: 'md:col-span-3',
         image: '/projects/recruitment-project.webp',
-        imageClass: 'md:h-40',
+        imageClass: 'md:h-56',
     },
     {
         title: 'Buscador de juegos',
         description:
             'Consumo de API de juegos gratuitos. UI desarrollada con ReactJS. Funcionalidad para buscar juegos con filtrado en tiempo real y paginación.',
         link: 'https://free-games-play.netlify.app/',
-        class: 'md:col-span-2',
+        class: 'md:col-span-3',
         image: '/projects/game-list.webp',
-        imageClass: 'md:h-40',
+        imageClass: 'md:h-56',
     },
-    {
-        title: 'Notes App',
-        description:
-            'Aplicación web de notas para organizar, tomar notas y guardar lo que quieras. Desarrollada con ReactJS y persitencia de datos en Local Storage.',
-        link: 'https://hvmble.github.io/app_tareas/',
-        class: 'md:col-span-2',
-        image: '/projects/notes-app.webp',
-        imageClass: 'md:h-40',
-    },
+    // {
+    //     title: 'Notes App',
+    //     description:
+    //         'Aplicación web de notas para organizar, tomar notas y guardar lo que quieras. Desarrollada con ReactJS y persitencia de datos en Local Storage.',
+    //     link: 'https://hvmble.github.io/app_tareas/',
+    //     class: 'md:col-span-2',
+    //     image: '/projects/notes-app.webp',
+    //     imageClass: 'md:h-40',
+    // },
 ]
 
 export const SKILLS = [
